@@ -131,9 +131,9 @@ Where:
 
 **Packet Queuing Delay** = (Length of packet * average packet arrival rate)/Rate = `(L*a)/R` 
 
-=> if `(L*a)/R` ~ 0 => small delay
-=> if `(L*a)/R` = 1 => large delay
-=> if `(L*a)/R` > 1 => infinite delay
+=> if `(L*a)/R` ~ 0 => small delay  
+=> if `(L*a)/R` = 1 => large delay  
+=> if `(L*a)/R` > 1 => infinite delay  
                                                                              
 ---
 
