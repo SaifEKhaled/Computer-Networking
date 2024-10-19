@@ -129,9 +129,9 @@ Where:
 - `d_trans` = Transmission Delay (time to send packet bits onto the link) => L(length of packet)/R(Transmission Rate)
 - `d_prop` = Propagation Delay (time for the signal to travel the physical link) => d(Distance)/s(Propagation Speed)
 
-Packet Queuing Delay = (Length of packet * average packet arrival rate)/Rate = `(L*a)/R` 
+**Packet Queuing Delay** = (Length of packet * average packet arrival rate)/Rate = `(L*a)/R` 
 
-=> if `(L*a)/R` ~ 0 => small delay                                                            										       
+=> if `(L*a)/R` ~ 0 => small delay
 => if `(L*a)/R` = 1 => large delay
 => if `(L*a)/R` > 1 => infinite delay
                                                                              
