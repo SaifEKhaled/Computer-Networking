@@ -61,8 +61,8 @@ Formula for Packet Transmission Delay:
 
 ### Network Core
 it's a mesh interconnected routers uses packet switching as we unraveled earlier. but it can use another way called Circuit Switching.
-- **Packet Switching**: Independently routes packets over shared resources.  
-- **Circuit Switching**: Pre-establishes a path, ensuring resource sharing but may waste bandwidth.
+- **Packet Switching**: Independently routes packets over shared resources, data may be queued before being transimitted, congesition loss, resources on demand not reserved. (avg low generates high)
+- **Circuit Switching**: Pre-establishes a path, ensuring resource sharing but may waste bandwidth, reserves resources, multiplexing,telephone call (avg same generates same)
 
 ### Network Functions
 The Network has 2 Functions:
